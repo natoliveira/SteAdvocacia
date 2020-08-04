@@ -11,7 +11,6 @@ const Cabecalho = props => {
                         <div className='input-group'>
                             <input type='email' classname='form-control' size='50' placeholder='Email Address' required />
                             <div className='input-group-btn'>
-                            <button type='button' className='btn btn-danger'>Subscribe</button>
                             </div>
                         </div>
                         </form>
@@ -24,15 +23,15 @@ const Cabecalho = props => {
             <span className='icon-bar'></span>
             <span className='icon-bar'></span>                        
             </button>
-        <Link classname='navbar-brand' to='/'>Logo</Link>
+        <Link classname=''><img className='bar'src="logo.jpeg"></img></Link>
         </div>
         <div className='collapse navbar-collapse' id='myNavbar'>
             <ul className='nav navbar-nav navbar-right'>
-            <li><Link to="/">INÍCIO</Link></li>
-            <li><Link to='/servicos'>SERVIÇOS</Link></li>
-            <li><Link to='/portfolio'>PORTFÓLIO</Link></li>
-            <li><Link to='/precos'>PREÇOS</Link></li>
-            <li><Link to='/contato'>FALE CONOSCO</Link></li>
+            <li><Link to="/">INSTITUCIONAL</Link></li>
+            <li><Link to='/servicos'>ÁREAS DE ATUAÇÃO</Link></li>
+            <li><Link to='/portfolio'>CONTEÚDO</Link></li>
+            <li><Link to='/precos'>CONTATO</Link></li>
+            <li><Link to='/contato'>MAIS INFORMAÇÕES</Link></li>
             </ul>
         </div>
         </div>
