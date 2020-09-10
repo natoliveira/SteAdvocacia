@@ -1,35 +1,28 @@
 import React from 'react'
 
 const Contatos = props => {
-    return (
-                <div id='contact' className='container-fluid bg-grey'>
-                <h2 className='text-center'>CONTACT</h2>
-                <div className='row'>
+        return(
+            <div>
+                <div id='pricing' className='container-fluid'>
+            <div className='text-center'>
+            <h2>FALE CONOSCO!</h2>
+            <h4></h4>
+            </div>
+            <br></br>
+            <div className='row'>
                     <div className='col-sm-5'>
-                    <p>Contact us and we'll get back to you within 24 hours.</p>
-                    <p><span className='glyphicon glyphicon-map-marker'></span> Chicago, US</p>
-                    <p><span className='glyphicon glyphicon-phone'></span> +00 1515151515</p>
-                    <p><span className='glyphicon glyphicon-envelope'></span> myemail@something.com</p>
-                    </div>
-                    <div className='col-sm-7 {/*'>
-                    <div className='row'>
-                        <div className='col-sm-6 form-group'>
-                        <input className='form-control' id='name' name='name' placeholder='Name' type='text' required />
-                        </div>
-                        <div className='col-sm-6 form-group'>
-                        <input className='form-control' id='email' name='email' placeholder='Email' type='email' required />
-                        </div>
-                    </div>
-                    <textarea className='form-control' id='comments' name='comments' placeholder='Comment' rows='5'></textarea><br />
-                    <div className='row'>
-                        <div className='col-sm-12 form-group'>
-                        <button className='btn btn-default pull-right' type='submit'>Send</button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
+                    <p>Atendemos de segunda a sexta das 8 às 18 horas. Plantões aos sábados e domingos!</p>
+                    <p><span className='glyphicon glyphicon-map-marker'></span> Belo Horizonte, MG.</p>
+                    <p><span className='glyphicon glyphicon-phone'></span> Dr.Joelma +031 983087575</p>
+                    <p><span className='glyphicon glyphicon-phone'></span> Dr.Júnia +031 7169-3563</p>
+                    <p><span className='glyphicon glyphicon-phone'></span> Dr.Márcia +031 9887-3978</p>
+                    <p><span className='glyphicon glyphicon-phone'></span> Dr.Flávia +031 9647-8780</p>
+                    <p><span className='glyphicon glyphicon-envelope'></span> advoliveirasesilva@gmail.com</p>
 
+                    </div>
+                    </div>
+            </div>
+            </div>
 
     )
 }

@@ -7,9 +7,8 @@ import Rodape from './componentes/Rodape';
 import Cabecalho from './componentes/Cabecalho';
 import Inicio from './componentes/Inicio';
 import Servicos from './componentes/Servicos';
-import Portifolio from './componentes/Portifolio';
-import Precos from './componentes/Precos';
 import Contatos from './componentes/Contatos';
+import Profissionais from './componentes/Profissionais';
 
 
 class App extends Component {
@@ -18,12 +17,13 @@ class App extends Component {
       <BrowserRouter>
       <div className="App">
         <Cabecalho />
-
+        <br></br>
+        <br></br>
+        <br></br>
         <Route path='/' exact component={Inicio} />
         <Route path='/servicos'component={Servicos}/>
-        <Route path='/portifolio'component={Portifolio}/>
-        <Route path='/precos'component={Precos}/>
-        <Route path='/contato'component={Contatos}/>
+        <Route path='/profissionais'component={Profissionais}/>
+        <Route path='/contatos'component={Contatos}/>
         <Rodape />
         </div>
         </BrowserRouter>

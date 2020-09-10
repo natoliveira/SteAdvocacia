@@ -117,10 +117,10 @@ body {
     font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #582A51; !important;
+    color: #582A51 !important;
     background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -177,6 +177,73 @@ body {
   }
   
   .bar{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
   }
+
+  .photo1{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    
+   
+  }
+
+
+  .photo2{
+    width:300x;
+    height:300px;
+    
+    
+  }
+
+  .photo3{
+    width:300px;
+    height:300px;
+    
+    
+    
+  }
+
+  .photo4{
+    width: 300px;
+    height: 300px;
+   
+    
+  }
+
+
+  .text{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .diferenciais{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  #obBlog {
+    width:100%;
+    margin:0px;
+    padding:opx; 
+    text-decoration: none;
+    background-color: #582A51;
+    color:#fff;
+    padding:0px;
+    margin:0px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .slogan{
+    text-align: center;
+    margin-right: 70px;
+  }
+

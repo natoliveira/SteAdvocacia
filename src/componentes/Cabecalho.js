@@ -3,13 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Cabecalho = props => {
     return (
-            <div>
-                <div className='jumbotron text-center'>
-                        <h1>Joelma Beatriz</h1> 
+        <div>
+            <div className='jumbotron text-center'>
                         <p>Soluções jurídicas eficazes!</p> 
                         <form>
                         <div className='input-group'>
-                            <input type='email' classname='form-control' size='50' placeholder='Email Address' required />
                             <div className='input-group-btn'>
                             </div>
                         </div>
@@ -24,14 +22,15 @@ const Cabecalho = props => {
             <span className='icon-bar'></span>                        
             </button>
         <Link classname=''><img className='bar'src="logo.jpeg"></img></Link>
+        <h5 className="slogan">Soluções jurídicas!</h5>
         </div>
         <div className='collapse navbar-collapse' id='myNavbar'>
             <ul className='nav navbar-nav navbar-right'>
-            <li><Link to="/">INSTITUCIONAL</Link></li>
+            <li><Link to="/">PROFISSIONAIS</Link></li>
             <li><Link to='/servicos'>ÁREAS DE ATUAÇÃO</Link></li>
-            <li><Link to='/portfolio'>CONTEÚDO</Link></li>
-            <li><Link to='/precos'>CONTATO</Link></li>
-            <li><Link to='/contato'>MAIS INFORMAÇÕES</Link></li>
+            <li><Link to='/profissionais'>INSTITUCIONAL</Link></li>
+            <li><Link to='/contatos'>CONTATOS</Link></li>
+            {/*<li><Link to='/contato'>MAIS INFORMAÇÕES</Link></li>*/}
             </ul>
         </div>
         </div>
